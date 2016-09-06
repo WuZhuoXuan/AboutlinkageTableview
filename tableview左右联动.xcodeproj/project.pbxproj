@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF79F5401D7E65AE00D01551 /* VCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF79F53F1D7E65AE00D01551 /* VCTableViewCell.m */; };
+		BF79F5431D7E89A700D01551 /* ArticleParabola.m in Sources */ = {isa = PBXBuildFile; fileRef = BF79F5421D7E89A700D01551 /* ArticleParabola.m */; };
 		BFB2729B1D6D2C980081DAA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2729A1D6D2C980081DAA8 /* main.m */; };
 		BFB2729E1D6D2C980081DAA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2729D1D6D2C980081DAA8 /* AppDelegate.m */; };
 		BFB272A11D6D2C980081DAA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB272A01D6D2C980081DAA8 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF79F53E1D7E65AE00D01551 /* VCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTableViewCell.h; sourceTree = "<group>"; };
+		BF79F53F1D7E65AE00D01551 /* VCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTableViewCell.m; sourceTree = "<group>"; };
+		BF79F5411D7E89A700D01551 /* ArticleParabola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleParabola.h; sourceTree = "<group>"; };
+		BF79F5421D7E89A700D01551 /* ArticleParabola.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleParabola.m; sourceTree = "<group>"; };
 		BFB272961D6D2C980081DAA8 /* tableview左右联动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableview左右联动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB2729A1D6D2C980081DAA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFB2729C1D6D2C980081DAA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				BFB2729D1D6D2C980081DAA8 /* AppDelegate.m */,
 				BFB2729F1D6D2C980081DAA8 /* ViewController.h */,
 				BFB272A01D6D2C980081DAA8 /* ViewController.m */,
+				BF79F53E1D7E65AE00D01551 /* VCTableViewCell.h */,
+				BF79F53F1D7E65AE00D01551 /* VCTableViewCell.m */,
+				BF79F5411D7E89A700D01551 /* ArticleParabola.h */,
+				BF79F5421D7E89A700D01551 /* ArticleParabola.m */,
 				BFB272A21D6D2C980081DAA8 /* Main.storyboard */,
 				BFB272A51D6D2C980081DAA8 /* Assets.xcassets */,
 				BFB272A71D6D2C980081DAA8 /* LaunchScreen.storyboard */,
@@ -270,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF79F5401D7E65AE00D01551 /* VCTableViewCell.m in Sources */,
 				BFB272A11D6D2C980081DAA8 /* ViewController.m in Sources */,
 				BFB2729E1D6D2C980081DAA8 /* AppDelegate.m in Sources */,
+				BF79F5431D7E89A700D01551 /* ArticleParabola.m in Sources */,
 				BFB2729B1D6D2C980081DAA8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				BFB272C51D6D2C980081DAA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB272C61D6D2C980081DAA8 /* Build configuration list for PBXNativeTarget "tableview左右联动Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				BFB272C81D6D2C980081DAA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB272C91D6D2C980081DAA8 /* Build configuration list for PBXNativeTarget "tableview左右联动UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				BFB272CB1D6D2C980081DAA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

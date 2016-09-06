@@ -1,6 +1,6 @@
 # AboutlinkageTableview （麻烦给个星star）
 
-tableView左右联动
+tableView左右联动带加入购物车动画
 
 github地址：https://github.com/WuZhuoXuan/AboutlinkageTableview
 
